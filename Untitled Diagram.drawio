@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="DaMxUlbxUUwVSJx7dch7">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gh4dhx48CFDy-g17T3zz-7" edge="1" parent="1" source="gh4dhx48CFDy-g17T3zz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gh4dhx48CFDy-g17T3zz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4dhx48CFDy-g17T3zz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Generate Data" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4dhx48CFDy-g17T3zz-8" edge="1" parent="1" source="gh4dhx48CFDy-g17T3zz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gh4dhx48CFDy-g17T3zz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4dhx48CFDy-g17T3zz-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Save Raw Data in&lt;div&gt;S3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4dhx48CFDy-g17T3zz-9" edge="1" parent="1" source="gh4dhx48CFDy-g17T3zz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gh4dhx48CFDy-g17T3zz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4dhx48CFDy-g17T3zz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Python ETL" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4dhx48CFDy-g17T3zz-10" edge="1" parent="1" source="gh4dhx48CFDy-g17T3zz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gh4dhx48CFDy-g17T3zz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4dhx48CFDy-g17T3zz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PostgreSQL DB&lt;div&gt;(Dockarized)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4dhx48CFDy-g17T3zz-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Analytics" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
